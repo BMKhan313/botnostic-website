@@ -30,20 +30,7 @@ const Navbar = () => {
                   <h1 className="text-white text-[12px] sm:text-[16px] md:text-[22px]  ">PRODUCTS</h1>
                   <div className="flex flex-col text-white mt-4 mb-1">
 
-                    <div className="flex items-center">
-
-                      <Image
-                        src='/recbot.png'
-                        alt="contact image"
-                        width={60}
-                        height={60}
-                      // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
-                      
-                      // 
-                      
-                      />
-                      <h4 className="text-[8px] xsm:text-[11px] sm:text-[14px] md:text-[16px] ml-1 ">Recruitment Bot</h4>
-                    </div>
+                    
                   </div>
                   <div className="flex flex-col text-white mb-1">
                     <div className="flex items-center">
@@ -57,10 +44,24 @@ const Navbar = () => {
                       
                       />
                       
-                      <h4 className="text-[8px] xsm:text-[11px] sm:text-[14px] md:text-[16px] ml-1">Career Advisory Service</h4>
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">My Career Dreams</h4>
                     </div>
 
                   </div>
+                  <div className="flex items-center mb-1">
+
+                      <Image
+                        src='/recbot.png'
+                        alt="contact image"
+                        width={60}
+                        height={60}
+                      // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
+                      
+                      // 
+                      
+                      />
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">RecruitmentBot</h4>
+                    </div>
                   <div className="flex flex-col text-white mb-1">
                     <div className="flex items-center">
 
@@ -73,7 +74,7 @@ const Navbar = () => {
                       
                       />
                       
-                      <h4 className="text-[8px] xsm:text-[11px] sm:text-[14px] md:text-[16px] ml-1 ">Career Progression Service</h4>
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">Talent Management Services</h4>
                     </div>
 
                   </div>
@@ -94,7 +95,7 @@ const Navbar = () => {
                       
                       />
                       
-                      <h4 className="text-[8px] xsm:text-[11px] sm:text-[14px] md:text-[16px] ml-1">Chat Bot Development</h4>
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">ChatBot Development</h4>
                     </div>
                   </div>
                   <div className="flex flex-col text-white">
@@ -109,7 +110,7 @@ const Navbar = () => {
                       
                       />
                       
-                      <h4 className="text-[8px] xsm:text-[11px] sm:text-[14px] md:text-[16px] ml-1">Business Intelligence &Analytics Solution</h4>
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">Business Intelligence &Analytics Solution</h4>
                     </div>
 
                   </div>
@@ -125,7 +126,7 @@ const Navbar = () => {
                       
                       />
                       
-                      <h4 className="text-[8px] xsm:text-[11px] sm:text-[14px] md:text-[16px] ml-1 ">Analytics as a Service</h4>
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">Analytics As A Service</h4>
                     </div>
 
                   </div>
@@ -137,15 +138,15 @@ const Navbar = () => {
                 <h1 className="text-white text-[12px] sm:text-[16px] md:text-[22px] ">COMPANY</h1>
                 <div className="flex flex-col mt-6 items-center">
 
-                  <Link href="/" className="text-[10px] xsm:text-[12px] sm:text-[14px] md:text-[16px]  ml-1 text-white mb-5 xsm:mb-5 md:mb-3 ">About Us</Link>
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">About Us</Link>
 
-                  <Link href="/" className="text-[10px] xsm:text-[12px] sm:text-[14px] md:text-[16px]  ml-1 text-white mb-5 xsm:mb-5 md:mb-3 ">Partners</Link>
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Partners</Link>
 
-                  <Link href="/" className="text-[10px] xsm:text-[12px] sm:text-[14px] md:text-[16px]  ml-1 text-white mb-5 xsm:mb-5 md:mb-3 ">Media</Link>
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Media</Link>
 
-                  <Link href="/" className="text-[10px] xsm:text-[12px] sm:text-[14px] md:text-[16px]  ml-1 text-white mb-5 xsm:mb-5 md:mb-3 ">Testimonial</Link>
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Testimonial</Link>
 
-                  <Link href="/" className="text-[10px] xsm:text-[12px] sm:text-[14px] md:text-[16px]  ml-1 text-white mb-5 xsm:mb-5 md:mb-3 ">Contact Us</Link>
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Contact Us</Link>
 
                 </div>
 

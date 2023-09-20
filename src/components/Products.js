@@ -175,20 +175,20 @@ const handleLearnMoreClick = () => {
         </div>
         {/* product text */}
        <div className="w-[90%] sm:w-[25%] md:w-[30%] text-left text-[16px] font-normal 
-        mr-[4px] sm:mr-[0px]
+        mr-[4px] sm:mr-[0px] ml-[0.5rem] sm:ml-[2rem]
        self-center font-oxygen">
-        <h2 className="font-black mb-4 text-[10px] sm:text-[14px] md:text-[16px] tracking-wide">PRODUCTS</h2>
+        <h2 className="font-black mb-4 text-[14px] sm:text-[14px] md:text-[16px] tracking-wide">PRODUCTS</h2>
         {/* <p>Designed by career advisors and industry professionals,
            our recruitment bot interactively assesses the disposition 
            of a candidate towards the career field they aim to pursue.</p> */}
            <p className="transition-all duration-3000 ease-in-out 
-           text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+           text-[12px] sm:text-[12px] md:text-[14px] lg:text-[16px] 
            font-oxygen">{showMoreText ? currentParagraph : currentParagraph.slice(0, 300) + "..."}</p>
 
            <button className="font-bold bg-[#F5BC4F]
             text-[#1C1E2B] hover:text-[#fff] mt-3 rounded-md sm:rounded-xl font-oxygen 
             hover:bg-[#d8af63] text-medium px-1 sm:px-2 md:px-2.5 py-1 sm:py-2 md:py-2.5 text-center
-            text-[8px] sm:text-[12px] md:text-[16px]
+            text-[10px] sm:text-[11px] md:text-[16px]
             "
             onClick={handleLearnMoreClick} 
             > {showMoreText ? "Show Less" : "Learn More"}</button>
