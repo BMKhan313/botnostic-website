@@ -66,7 +66,7 @@ const handleLearnMoreClick = () => {
   return (
     // <div className="text-[#fff] flex product-main" >
     <div   className={classnames(
-      "w-screen h-screen bg-cover bg-center transition-all duration-1000 ease-in-out product-main",
+      "w-screen px-[1%] bg-cover bg-center transition-all duration-1000 ease-in-out product-main",
       // {
       //   "bg-red-500": backgroundImageUrl === "../../public/product-background.png",
       //   "bg-blue-500": backgroundImageUrl === "../../public/b2.png",
@@ -77,102 +77,119 @@ const handleLearnMoreClick = () => {
     style={{
       backgroundImage: `url(${backgroundImageUrl})`,
     }}>
-      <div className="flex justify-between items-center">
+      <div className="block sm:flex justify-between items-center prod-main2">
         {/* icons and names */}
-        <div className="flex flex-col w-[35%] justify-center " >
-          
+        <div className="flex justify-between w-[90%]">
+        <div className="flex flex-col w-[52%]  justify-center " >
+          {/* w-[20%] sm:w-[25%] md:w-[30%]  lg:w-[35%]  */}
         <div className="flex items-center mb-8 font-oxygen">
           <div className="relative flex flex-col flex-grow items-center w-6">
-             <span className="prod-text tracking-[0.2rem] mr-1 font-bold text-[22px]">PRODUCTS</span>
+             <span className="prod-text tracking-[0.2rem] mr-1 font-bold text-[17px] sm:text-[18px] md:text-[18px] ">PRODUCTS</span>
         </div>
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full"> 
         
         <div className="flex items-center mb-2">
          <Image 
-         src='/mycareer.png'
-         width={80}
-         height={40}
+         src='/rec-bot.png'
+         width={60}
+         height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold  text-left text-[16px] leading-4 cursor-pointer ">My Career Dreams</h3>
+         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+          text-left  leading-4 cursor-pointer ">My Career Dreams</h3>
         </div>
+        
         <div className="flex items-center mb-2">
          <Image 
          src='/rec-bot.png'
-         width={80}
-         height={40}
+         width={60}
+         height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold  text-left text-[16px] leading-4 cursor-pointer">RecruitmentBot</h3>
+         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+          text-left text-[16px] leading-4 cursor-pointer">RecruitmentBot</h3>
         </div>
        
         <div className="flex items-center">
          <Image 
          src='/careerprogression.png'
-         width={80}
-         height={40}
+         width={60}
+         height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold  text-left text-[16px] leading-4 cursor-pointer">Talent Management Services</h3>
+         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+          text-left text-[16px] leading-4 cursor-pointer">Talent Management Services</h3>
         </div>
         </div>
         </div>
         {/* services */}
         <div className="flex items-center mb-8 font-oxygen ">
           <div className="relative flex flex-col flex-grow items-center w-6">
-             <span className="prod-text tracking-[0.2rem] mr-1 font-bold text-[22px]">SERVICES</span>
+             <span className="prod-text tracking-[0.2rem] mr-1 font-bold text-[17px] sm:text-[18px] md:text-[18px]">SERVICES</span>
         </div>
         <div className="flex flex-col w-full">
         
         <div className="flex items-center mb-2">
          <Image 
          src='/chatbot.png'
-         width={80}
-         height={40}
+         width={60}
+         height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold   text-left  cursor-pointer">ChatBot Development</h3>
+         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+           text-left  cursor-pointer">ChatBot Development</h3>
         </div>
         <div className="flex items-center mb-2">
          <Image 
          src='/ai.png'
-         width={80}
-         height={40}
+         width={60}
+         height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold   text-left text-[16px] leading-4 cursor-pointer">Business Intelligence &
-Analytics Solution</h3>
+         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+
+          text-left text-[16px] leading-4 cursor-pointer">Business Intelligence &
+           Analytics Solution</h3>
         </div>
         <div className="flex items-center">
          <Image 
          src='/analytic-as-service.png'
-         width={80}
-         height={40}
+         width={60}
+         height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold   text-left text-[16px] leading-4 cursor-pointer">Analytics As A Service </h3>
+         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+           text-left text-[16px] leading-4 cursor-pointer">Analytics As A Service </h3>
         </div>
         </div>
         </div>
         
         </div>
         {/* center div */}
-        <div className="flex flex-col w-[32%] items-center  h-[30rem]">
-          <h1 className="font-extrabold text-[28px] mb-3 tracking-wider font-oxygen">WHAT WE OFFER</h1>
-          <div className="rounded-lg bg-[#D9D9D9] w-[100%] h-[24rem]">
-         
+        <div className="flex flex-col w-[40%] sm:w-[44%] md:w-[48%] lg:w-[52%] items-center  h-[30rem]">
+          <h1 className="font-extrabold text-[12px] sm:text-[18px] md:text-[24] lg:text-[40px] mb-3 tracking-wider font-oxygen">WHAT WE OFFER</h1>
+          <div className="rounded-lg bg-[#D9D9D9] flex w-[100%] h-[24rem]">
+          
           </div>
         </div>
+        </div>
         {/* product text */}
-       <div className="w-[30%] text-left text-[16px] font-normal self-center font-oxygen">
-        <h2 className="font-black mb-4  tracking-wide">PRODUCTS</h2>
+       <div className="w-[90%] sm:w-[25%] md:w-[30%] text-left text-[16px] font-normal 
+        mr-[4px] sm:mr-[0px]
+       self-center font-oxygen">
+        <h2 className="font-black mb-4 text-[10px] sm:text-[14px] md:text-[16px] tracking-wide">PRODUCTS</h2>
         {/* <p>Designed by career advisors and industry professionals,
            our recruitment bot interactively assesses the disposition 
            of a candidate towards the career field they aim to pursue.</p> */}
-           <p className="transition-all duration-3000 ease-in-out font-oxygen">{showMoreText ? currentParagraph : currentParagraph.slice(0, 300) + "..."}</p>
+           <p className="transition-all duration-3000 ease-in-out 
+           text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+           font-oxygen">{showMoreText ? currentParagraph : currentParagraph.slice(0, 300) + "..."}</p>
 
            <button className="font-bold bg-[#F5BC4F]
-            text-[#1C1E2B] hover:text-[#fff] mt-3  rounded-xl font-oxygen hover:bg-[#d8af63]   text-medium px-4 py-2.5 text-center"
+            text-[#1C1E2B] hover:text-[#fff] mt-3 rounded-md sm:rounded-xl font-oxygen 
+            hover:bg-[#d8af63] text-medium px-1 sm:px-2 md:px-2.5 py-1 sm:py-2 md:py-2.5 text-center
+            text-[8px] sm:text-[12px] md:text-[16px]
+            "
             onClick={handleLearnMoreClick} 
             > {showMoreText ? "Show Less" : "Learn More"}</button>
        </div>
