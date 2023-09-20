@@ -33,135 +33,145 @@ const Contact = () => {
           className="w-[100%]"
         />
       </div>
-      <div className="absolute inset-0 bg-opacity-50  h-fit">
-       
+      <div className="absolute inset-0 bg-opacity-50 font-Roboto h-fit">
+
         {/* Full-screen Navbar */}
         <div
           className={`${isNavbarOpen ? "block" : "hidden"
             }  top-0 left-0 right-0 bg-[#000] p-4 z-10 h-auto flex  flex-col`}
         >
-         {/* prod-services place*/}
-         {/* <hr class="h-px bg-[#f3f] border-0 dark:bg-[#f3f]"></hr> */}
+          {/* prod-services place*/}
+          {/* <hr class="h-px bg-[#f3f] border-0 dark:bg-[#f3f]"></hr> */}
           <div className="flex flex-col mt-20">
-          <div className="flex ">
-          <div className="flex flex-col mr-[2rem] w-[85%]">
-            <div className="flex justify-evenly ">
-              <h2 className="text-white ml-[-12rem]">PRODUCTS</h2>
-              <h2 className="text-white">SERVICES</h2>
-            </div>
-          <hr className="h-px bg-[#fff] border-0 dark:bg-[#fff] "></hr>
-           <div className="flex justify-evenly ">
-           <div className="py-2 ">
-            {/* <h1 className="text-white underline text-white mr-4">PRODUCTS</h1> */}
-            <div className="flex flex-col text-white mt-4 mb-1">
-              <div className="flex items-center">
+            <div className="flex ">
 
-                <Image
-                  src='/recbot.png'
-                  alt="contact image"
-                  width={80}
-                  height={80}
-                  // className="w-[50%]"
-                />
-                <h4 className="text-[12px] ml-1">Recruitment Bot</h4>
+              <div className="flex justify-between mr-[4rem] md2:mr-[9rem] w-[65%]">
+
+                <div className="py-2 flex flex-col items-start">
+                  <h1 className="text-white text-[12px] sm:text-[16px] md:text-[22px]  ">PRODUCTS</h1>
+                  <div className="flex flex-col text-white mt-4 mb-1">
+
+                    
+                  </div>
+                  <div className="flex flex-col text-white mb-1">
+                    <div className="flex items-center">
+
+                      <Image
+                        src='/mycareer.png'
+                        alt="contact image"
+                        width={60}
+                        height={60}
+                      // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
+                      
+                      />
+                      
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">My Career Dreams</h4>
+                    </div>
+
+                  </div>
+                  <div className="flex items-center text-white mb-1">
+
+                      <Image
+                        src='/recbot.png'
+                        alt="contact image"
+                        width={60}
+                        height={60}
+                      
+                      />
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">RecruitmentBot</h4>
+                    </div>
+                  <div className="flex flex-col text-white mb-1">
+                    <div className="flex items-center">
+
+                      <Image
+                        src='/careerprog.png'
+                        alt="contact image"
+                        width={60}
+                        height={60}
+                      // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
+                      
+                      />
+                      
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">Talent Management Services</h4>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="py-2 flex flex-col items-start ml-12 sm:ml-6 ">
+                  <h2 className="text-white text-[12px] sm:text-[16px] md:text-[22px] ">SERVICES</h2>
+                  <div className="flex flex-col text-white mt-4">
+
+                    <div className="flex items-center">
+
+                      <Image
+                        src='/chatbot-dev.png'
+                        alt="contact image"
+                        width={60}
+                        height={60}
+                      // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
+                      
+                      />
+                      
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">ChatBot Development</h4>
+                    </div>
+                  </div>
+                  <div className="flex flex-col text-white">
+                    <div className="flex items-center">
+
+                      <Image
+                        src='/business-intelligence.png'
+                        alt="contact image"
+                        width={60}
+                        height={60}
+                      // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
+                      
+                      />
+                      
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">Business Intelligence &Analytics Solution</h4>
+                    </div>
+
+                  </div>
+                  <div className="flex flex-col text-white">
+                    <div className="flex items-center">
+
+                      <Image
+                        src='/analytics.png'
+                        alt="contact image"
+                        width={60}
+                        height={60}
+                      // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
+                      
+                      />
+                      
+                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">Analytics As A Service</h4>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
-            </div>
-            <div className="flex flex-col text-white mb-1">
-              <div className="flex items-center">
+              {/* company */}
+              <div className=" py-2 flex flex-col">
+                <h1 className="text-white text-[12px] sm:text-[16px] md:text-[22px] ">COMPANY</h1>
+                <div className="flex flex-col mt-6 items-center">
 
-                <Image
-                  src='/mycareer.png'
-                  alt="contact image"
-                  width={80}
-                  height={80}
-                  // className="w-[50%]"
-                />
-                <h4 className="text-[12px] ml-1">Career Advisory Service</h4>
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">About Us</Link>
+
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Partners</Link>
+
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Media</Link>
+
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Testimonial</Link>
+
+                  <Link href="/" className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Contact Us</Link>
+
+                </div>
+
+
               </div>
 
             </div>
-            <div className="flex flex-col text-white mb-1">
-              <div className="flex items-center">
-
-                <Image
-                  src='/careerprog.png'
-                  alt="contact image"
-                  width={80}
-                  height={80}
-                  // className="w-[50%]"
-                />
-                <h4 className="text-[12px] ml-1 ">Career Progression Service</h4>
-              </div>
-
-            </div>
-          </div>
-          <div className=" ">
-            {/* <h1 className="text-white underline text-white mr-4">PRODUCTS</h1> */}
-            {/* <hr class="h-px my-20 bg-[#f3f] border-0 dark:bg-[#f3f]"></hr> */}
-            <div className="flex flex-col text-white mt-4">
-              <div className="flex items-center">
-
-                <Image
-                  src='/chatbot-dev.png'
-                  alt="contact image"
-                  width={80}
-                  height={80}
-                  // className="w-[50%]"
-                />
-                <h4 className="text-[12px] ml-1">Chat Bot Development</h4>
-              </div>
-            </div>
-            <div className="flex flex-col text-white">
-              <div className="flex items-center">
-
-                <Image
-                  src='/business-intelligence.png'
-                  alt="contact image"
-                  width={80}
-                  height={80}
-                  // className="w-[50%]"
-                />
-                <h4 className="text-[12px] ml-1">Business Intelligence &Analytics Solution</h4>
-              </div>
-
-            </div>
-            <div className="flex flex-col text-white">
-              <div className="flex items-center">
-
-                <Image
-                  src='/analytics.png'
-                  alt="contact image"
-                  width={80}
-                  height={80}
-                  // className="w-[50%]"
-                />
-                <h4 className="text-[12px] ml-1 ">Analytics as a Service</h4>
-              </div>
-
-            </div>
-          </div>
-           </div>
-         
-          </div>
-          <div className=" py-2 ">
-            <h1 className="text-white ">COMPANY</h1>
-            <div className="flex flex-col mt-4 items-center">
-           
-             <Link href="/" className="text-[12px] ml-1 underline text-white mb-4">About Us</Link>
-             
-             <Link href="/" className="text-[12px] ml-1 underline text-white mb-4">Partners</Link>
-            
-             <Link href="/" className="text-[12px] ml-1 underline text-white mb-4">Media</Link>
-            
-             <Link href="/" className="text-[12px] ml-1 underline text-white mb-4">Testimonial</Link>
-           
-             <Link href="/" className="text-[12px] ml-1 underline text-white mb-4">Contact Us</Link>
-           
-            </div>
-           
-            
-          </div>
-          </div>
           </div>
         </div>
 
@@ -182,12 +192,12 @@ const Contact = () => {
           )}
         </button>
       </div>
-      <div className="mt-6 flex items-center flex-col justify-center">
-          <h3 className="text-[#1853A9] text-[30px] mb-3">Our team of experts are on hand to answer your questions.</h3>
-        <hr className="w-[67%] h-[2px] bg-[#1853A9] border-0 dark:bg-[#1853A9]"></hr>
+      <div className="mt-[4rem] flex items-center flex-col px-[2rem] sm:[1.5rem] justify-center font-oxygen">
+          <h3 className="text-[#1853A9] text-[14px] sm:text-[20px] md:text-[26px] px-2 lg:text-[30px] font-bold mb-3">Our team of experts are on hand to answer your questions.</h3>
+        <hr className="w-[100%] sm:[w-80%] h-[2px] bg-[#1853A9] border-0 dark:bg-[#1853A9]"></hr>
       </div>
       <div className=" bg-opacity-50 bg-gray-100 mt-32">
-        <div className="items-center flex flex-col  ">
+        <div className="items-center flex flex-col  font-oxygen">
 
           <Formik
             initialValues={{
@@ -204,7 +214,7 @@ const Contact = () => {
               console.log(values);
             }}
           >
-            {({ errors, touched }) => (
+            {({ errors, touched, resetForm }) => (
               <Form className="px-5 py-12 w-[50%] ">
 
                 <label className="flex mb-6 text-medium font-semibold text-gray-800 ">
@@ -286,18 +296,18 @@ const Contact = () => {
                     placeholder="Write your thoughts here..."
                   ></textarea>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between font-oxygen">
                   <button
                   type="submit"
-                  className="text-white bg-blue-900 hover:bg-blue-800  font-lg rounded-lg text-medium px-12 py-2.5 text-center "
+                  className="text-white bg-blue-900 hover:bg-blue-800  font-lg rounded-lg text-[10px] sm:text-[14px] md:text-[16px] px-2 sm:px-8 md:px-12 py-2.5 text-center "
                 >
                   Submit
                 </button>
-                <button className="font-medium text-[#0F3979]"
+                <button className="font-medium text-[#0F3979] text-[10px] sm:text-[14px] md:text-[16px]"
                 type="button"
                 onClick={() => {
                   // Access the resetForm function provided by Formik and call it to reset the form
-                  // resetForm();
+                  resetForm();
                 }}
                 >Clear form</button>
                 </div>

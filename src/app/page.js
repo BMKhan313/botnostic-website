@@ -20,7 +20,7 @@ export default function Home() {
      <News />
       </div>
       <div>
-        {/* <Review /> */}
+        <Review />
       </div>
       <div>
         <Footer />
