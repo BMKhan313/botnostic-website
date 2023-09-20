@@ -36,7 +36,7 @@ const Navbar = () => {
                     <div className="flex items-center">
 
                       <Image
-                        src='/mycareer.png'
+                        src='/mycareerd.png'
                         alt="contact image"
                         width={60}
                         height={60}
@@ -51,7 +51,7 @@ const Navbar = () => {
                   <div className="flex items-center mb-1">
 
                       <Image
-                        src='/recbot.png'
+                        src='/rec-bot2.png'
                         alt="contact image"
                         width={60}
                         height={60}
@@ -66,7 +66,7 @@ const Navbar = () => {
                     <div className="flex items-center">
 
                       <Image
-                        src='/careerprog.png'
+                        src='/tms.png'
                         alt="contact image"
                         width={60}
                         height={60}
@@ -87,7 +87,7 @@ const Navbar = () => {
                     <div className="flex items-center">
 
                       <Image
-                        src='/chatbot-dev.png'
+                        src='/chat-dev.png'
                         alt="contact image"
                         width={60}
                         height={60}
@@ -102,7 +102,7 @@ const Navbar = () => {
                     <div className="flex items-center">
 
                       <Image
-                        src='/business-intelligence.png'
+                        src='/business-int.png'
                         alt="contact image"
                         width={60}
                         height={60}
@@ -118,7 +118,7 @@ const Navbar = () => {
                     <div className="flex items-center">
 
                       <Image
-                        src='/analytics.png'
+                        src='/analytics-as-ser.png'
                         alt="contact image"
                         width={60}
                         height={60}

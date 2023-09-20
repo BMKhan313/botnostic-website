@@ -1,7 +1,8 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Oxygen } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+const oxygen = Oxygen({subsets: ['latin'], weight: '700'})
 
 export const metadata = {
   title: 'Botnostic solutions',

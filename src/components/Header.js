@@ -5,6 +5,7 @@ import Image from 'next/image';
 // import photo from '../../public/photo.png'
 import {Menuicon} from '../../public/menu-icon.png'
 import Headertop from './Headertop';
+import { Oxygen } from 'next/font/google';
 
 const Header = () => {
 
@@ -31,11 +32,11 @@ const currentParagraph = paragraphsArray[paragraphIndex];
       {/* Content */}
         <Headertop  />
       <div className='w-[100%] flex flex-col mt-[0.5rem] text-left  font-oxygen'>
-        <h1 className='text-[#21B0B0] w-[120%] sm:w-[80%] md:w-[40%] lg:w-[25%]
-        text-[16px] sm:text-[20px] md:text-[24px] font-black'>Botnostic Solutions, the spearhead of 
+        <h1 className='text-[#21B0B0] w-[120%] sm:w-[90%] md:w-[70%] 
+        text-[11px] xsm:text-[20px] md:text-[24px] font-semibold ' >Botnostic Solutions, the spearhead of 
         augmenting Artificial intelligence for Business Solutions</h1>
-        <div className=' max-h-[380px] mt-2 w-[120%] sm:w-[80%] md:w-[40%] lg:w-[25%] text-[12px] 
-        sm:text-[14px] md:text-[17px] transition-all duration-3000 ease-in-out'>{currentParagraph}</div>
+        <div className=' max-h-[380px] mt-2 w-[120%] sm:w-[80%] md:w-[40%] lg:w-[25%] text-[8px] 
+        xsm:text-[14px] md:text-[17px] transition-all duration-3000 ease-in-out font-oxygen'>{currentParagraph}</div>
       </div>
     </div>
   );

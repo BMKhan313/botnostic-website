@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
 .header {
   background-image: url('../../public/photo2.png'); 
   background-size: 100% 100%;

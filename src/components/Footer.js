@@ -41,7 +41,7 @@ const Footer = () => {
               width={100}
               height={100}
             />
-            <p className="text-white text-[10px] sm:text-[12px]  ml-1">+923121602666</p>
+            <p className="text-white text-[10px] sm:text-[12px]  ml-1">+92 3002266226</p>
           </div>
           <div className="flex justify-start items-center mt-1">
             <Image
@@ -50,7 +50,7 @@ const Footer = () => {
               width={100}
               height={100}
             />
-            <p className="text-white ml-1 underline text-[10px] sm:text-[12px]  cursor-pointer">mailto:info@botnosticsolutions.ai </p>
+            <p className="text-white ml-1 underline text-[10px] sm:text-[12px]  cursor-pointer">info@botnosticsolutions.ai </p>
           </div>
         </div>
       </div>

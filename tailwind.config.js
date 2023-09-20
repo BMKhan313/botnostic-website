@@ -15,7 +15,8 @@ module.exports = {
       fontFamily: {
         Roboto: 'Roboto', 
         inter: 'Inter',
-        oxygen: 'Oxygen'
+        // oxygen: ['Oxygen', 'sans'],
+        oxygen: ['Oxygen', "sans-serif"]
       },
       backgroundImage: {
         'pack': "url('/footer-bg.png')",

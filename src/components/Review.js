@@ -12,9 +12,9 @@ const Review = () => {
                         aliqua. Ut enim ad minim
                         veniam, quis nostrud </div>
                 </div>
-                <div className="p-6 block sm:flex">
+                <div className="p-6 block sm:flex ">
 
-                    <div className="flex flex-col  mr-1">
+                    <div className="flex flex-col mb-[1rem] sm:mb-[0rem] mr-1">
                       
                          {/* <Image
                             alt="usericon"
@@ -32,19 +32,17 @@ const Review = () => {
                          // Importing an image will
                          // automatically set the width and height
                          src="/usericon.png"
-                         
-                         width={200}
-                         height={200}
+                         className="w-[80%]"
                         />
-                        <div className=" bg-[#EBEBEB] mt-[-18px] w-[100%] rounded-xl">
+                        <div className=" bg-[#EBEBEB] mt-[-18px] w-[80%] rounded-xl">
                             <p className="text-[8px] sm:text-[10px] md:text-[12px] w-[100%]  font-semibold h-auto p-2 text-left flex justify-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna
                                 aliqua. Ut enim ad minim
-                                veniam, quis nostrud </p>
+                                </p>
                         </div>
                       
                     </div>
-                    <div className="flex flex-col  mr-1">
+                    <div className="flex flex-col mb-[1rem] sm:mb-[0rem] mr-1">
                       
                          {/* <Image
                             alt="usericon"
@@ -60,20 +58,18 @@ const Review = () => {
                          // Importing an image will
                          // automatically set the width and height
                          src="/usericon.png"
-                         
-                         width={200}
-                         height={200}
+                         className="w-[80%]"
                         />
-                        <div className=" bg-[#EBEBEB] mt-[-18px] rounded-xl">
+                        <div className=" bg-[#EBEBEB] mt-[-18px] w-[80%] rounded-xl">
                             <p className="text-[8px] sm:text-[10px] md:text-[12px] w-[100%]  font-semibold h-auto p-2 text-left flex justify-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna
                                 aliqua. Ut enim ad minim
-                                veniam, quis nostrud </p>
+                                </p>
                         </div>
                       
                     </div>
                     
-                    <div className="flex flex-col  mr-1">
+                    <div className="flex flex-col mb-[1rem] sm:mb-[0rem] mr-1">
                       {/* w-[60%] sm:w-[80%] md:w-[100%] */}
                          {/* <Image
                             alt="usericon"
@@ -91,15 +87,14 @@ const Review = () => {
                          // Importing an image will
                          // automatically set the width and height
                          src="/usericon.png"
-                         
-                         width={200}
-                         height={200}
+                         className="w-[80%]"
+                       
                         />
-                        <div className=" bg-[#EBEBEB] mt-[-18px] rounded-xl  ">
+                        <div className=" bg-[#EBEBEB] mt-[-18px] rounded-xl  w-[80%]">
                             <p className="text-[8px] sm:text-[10px] md:text-[12px] font-semibold h-auto p-2 text-left flex justify-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna
                                 aliqua. Ut enim ad minim
-                                veniam, quis nostrud </p>
+                               </p>
                         </div>
                       
                     </div>

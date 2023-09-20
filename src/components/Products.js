@@ -88,9 +88,9 @@ const handleLearnMoreClick = () => {
         </div>
         <div className="flex flex-col w-full"> 
         
-        <div className="flex items-center mb-2">
+        <div className="block sm:flex items-center mb-2">
          <Image 
-         src='/rec-bot.png'
+         src='/mycareerd.png'
          width={60}
          height={60}
          alt="rec-bot-icon"
@@ -99,9 +99,9 @@ const handleLearnMoreClick = () => {
           text-left  leading-4 cursor-pointer ">My Career Dreams</h3>
         </div>
         
-        <div className="flex items-center mb-2">
+        <div className="block sm:flex items-center mb-2">
          <Image 
-         src='/rec-bot.png'
+         src='/rec-bot2.png'
          width={60}
          height={60}
          alt="rec-bot-icon"
@@ -110,9 +110,9 @@ const handleLearnMoreClick = () => {
           text-left text-[16px] leading-4 cursor-pointer">RecruitmentBot</h3>
         </div>
        
-        <div className="flex items-center">
+        <div className="block sm:flex items-center">
          <Image 
-         src='/careerprogression.png'
+         src='/tms.png'
          width={60}
          height={60}
          alt="rec-bot-icon"
@@ -129,9 +129,9 @@ const handleLearnMoreClick = () => {
         </div>
         <div className="flex flex-col w-full">
         
-        <div className="flex items-center mb-2">
+        <div className="block sm:flex items-center mb-2">
          <Image 
-         src='/chatbot.png'
+         src='/chat-dev.png'
          width={60}
          height={60}
          alt="rec-bot-icon"
@@ -139,9 +139,9 @@ const handleLearnMoreClick = () => {
          <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
            text-left  cursor-pointer">ChatBot Development</h3>
         </div>
-        <div className="flex items-center mb-2">
+        <div className="block sm:flex items-center mb-2">
          <Image 
-         src='/ai.png'
+         src='/business-int.png'
          width={60}
          height={60}
          alt="rec-bot-icon"
@@ -151,9 +151,9 @@ const handleLearnMoreClick = () => {
           text-left text-[16px] leading-4 cursor-pointer">Business Intelligence &
            Analytics Solution</h3>
         </div>
-        <div className="flex items-center">
+        <div className="block sm:flex items-center">
          <Image 
-         src='/analytic-as-service.png'
+         src='/analytics-as-ser.png'
          width={60}
          height={60}
          alt="rec-bot-icon"
