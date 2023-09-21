@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="absolute inset-0 bg-opacity-50 font-Roboto h-fit">
+      <div className="absolute inset-0 bg-opacity-50 font-oxygen h-fit">
 
         {/* Full-screen Navbar */}
         <div
@@ -24,9 +24,9 @@ const Navbar = () => {
           <div className="flex flex-col mt-20">
             <div className="flex ">
 
-              <div className="flex justify-between mr-[4rem] md2:mr-[9rem] w-[65%]">
+              <div className="flex justify-between mr-[2rem] md2:mr-[9rem] w-[75%]">
 
-                <div className="py-2 flex flex-col items-start">
+                <div className="py-2 flex flex-col items-center sm:items-start">
                   <h1 className="text-white text-[12px] sm:text-[16px] md:text-[22px]  ">PRODUCTS</h1>
                   <div className="flex flex-col text-white mt-4 mb-1">
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                   <div className="flex flex-col text-white mb-1">
                     <div className="flex items-center">
 
-                      <Image
+                      {/* <Image
                         src='/mycareerd.png'
                         alt="contact image"
                         width={60}
@@ -43,91 +43,88 @@ const Navbar = () => {
                       // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
                       
                       />
-                      
-                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">My Career Dreams</h4>
+                       */}
+                      <h4 className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3">My Career Dreams</h4>
                     </div>
 
                   </div>
                   <div className="flex items-center mb-1">
 
-                      <Image
+                      {/* <Image
                         src='/rec-bot2.png'
                         alt="contact image"
                         width={60}
                         height={60}
-                      // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
                       
-                      // 
-                      
-                      />
-                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">RecruitmentBot</h4>
+                      /> */}
+                      <h4 className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">RecruitmentBot</h4>
                     </div>
                   <div className="flex flex-col text-white mb-1">
-                    <div className="flex items-center">
+                    {/* <div className="flex items-center"> */}
 
-                      <Image
+                      {/* <Image
                         src='/tms.png'
                         alt="contact image"
                         width={60}
                         height={60}
                       // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
                       
-                      />
+                      /> */}
                       
-                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">Talent Management Services</h4>
-                    </div>
+                      <h4 className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Talent Management Services</h4>
+                    {/* </div> */}
 
                   </div>
                 </div>
 
-                <div className="py-2 flex flex-col items-start ml-12 sm:ml-6 ">
+                <div className="py-2 flex flex-col items-center sm:items-start ml-12 sm:ml-6 ">
                   <h2 className="text-white text-[12px] sm:text-[16px] md:text-[22px] ">SERVICES</h2>
                   <div className="flex flex-col text-white mt-4">
 
-                    <div className="flex items-center">
+                    {/* <div className="flex items-center"> */}
 
-                      <Image
+                      {/* <Image
                         src='/chat-dev.png'
                         alt="contact image"
                         width={60}
                         height={60}
                       // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
                       
-                      />
+                      /> */}
                       
-                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">ChatBot Development</h4>
-                    </div>
+                      <h4 className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3">ChatBot Development</h4>
+                    {/* </div> */}
                   </div>
                   <div className="flex flex-col text-white">
-                    <div className="flex items-center">
+                    {/* <div className="flex items-center"> */}
 
-                      <Image
+                      {/* <Image
                         src='/business-int.png'
                         alt="contact image"
                         width={60}
                         height={60}
                       // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
                       
-                      />
+                      /> */}
                       
-                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1">Business Intelligence &Analytics Solution</h4>
-                    </div>
+                      <h4 className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3">Business Intelligence &Analytics Solution</h4>
+                    {/* </div> */}
 
                   </div>
                   <div className="flex flex-col text-white">
-                    <div className="flex items-center">
+                    {/* <div className="flex items-center"> */}
 
-                      <Image
+                      {/* <Image
                         src='/analytics-as-ser.png'
                         alt="contact image"
                         width={60}
                         height={60}
                       // className="w-[40%] xsm:w-[50%] sm:w-[60%] md:w-[80%] lg:w-[100%] "
                       
-                      />
+                      /> */}
                       
-                      <h4 className="text-[8px]  md:text-[10px] lg:text-[14px] ml-1 ">Analytics As A Service</h4>
-                    </div>
+                      <h4 className="text-[8px] xsm:text-[10px]  md:text-[16px]  ml-1 text-white mb-3 xsm:mb-5 md:mb-3 ">Analytics As A Service</h4>
+                    {/* </div> */}
 
                   </div>
                 </div>

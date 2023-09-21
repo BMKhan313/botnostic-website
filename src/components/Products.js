@@ -79,34 +79,34 @@ const handleLearnMoreClick = () => {
     }}>
       <div className="block sm:flex justify-between items-center prod-main2">
         {/* icons and names */}
-        <div className="flex justify-between w-[90%]">
+        <div className="flex w-[99%]">
         <div className="flex flex-col w-[52%]  justify-center " >
           {/* w-[20%] sm:w-[25%] md:w-[30%]  lg:w-[35%]  */}
         <div className="flex items-center mb-8 font-oxygen">
           <div className="relative flex flex-col flex-grow items-center w-6">
-             <span className="prod-text tracking-[0.2rem] mr-1 font-bold text-[17px] sm:text-[18px] md:text-[18px] ">PRODUCTS</span>
+             <span className="prod-text tracking-[0.6rem] sm:tracking-[0.2rem]  mr-1 font-bold text-[17px] sm:text-[18px] md:text-[18px] ">PRODUCTS</span>
         </div>
         <div className="flex flex-col w-full"> 
         
         <div className="block sm:flex items-center mb-2">
          <Image 
-         src='/mycareerd.png'
+         src='/mycareer.png'
          width={60}
          height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+         <h3 className="ml-0 sm:ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
           text-left  leading-4 cursor-pointer ">My Career Dreams</h3>
         </div>
         
         <div className="block sm:flex items-center mb-2">
          <Image 
-         src='/rec-bot2.png'
+         src='/rec-bot.png'
          width={60}
          height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+         <h3 className="ml-0 sm:ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
           text-left text-[16px] leading-4 cursor-pointer">RecruitmentBot</h3>
         </div>
        
@@ -117,7 +117,7 @@ const handleLearnMoreClick = () => {
          height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+         <h3 className="ml-0 sm:ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
           text-left text-[16px] leading-4 cursor-pointer">Talent Management Services</h3>
         </div>
         </div>
@@ -125,7 +125,7 @@ const handleLearnMoreClick = () => {
         {/* services */}
         <div className="flex items-center mb-8 font-oxygen ">
           <div className="relative flex flex-col flex-grow items-center w-6">
-             <span className="prod-text tracking-[0.2rem] mr-1 font-bold text-[17px] sm:text-[18px] md:text-[18px]">SERVICES</span>
+             <span className="prod-text tracking-[0.6rem] sm:tracking-[0.2rem]  mr-1 font-bold text-[17px] sm:text-[18px] md:text-[18px]">SERVICES</span>
         </div>
         <div className="flex flex-col w-full">
         
@@ -136,7 +136,7 @@ const handleLearnMoreClick = () => {
          height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+         <h3 className="ml-0 sm:ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
            text-left  cursor-pointer">ChatBot Development</h3>
         </div>
         <div className="block sm:flex items-center mb-2">
@@ -146,7 +146,7 @@ const handleLearnMoreClick = () => {
          height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+         <h3 className="ml-0 sm:ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
 
           text-left text-[16px] leading-4 cursor-pointer">Business Intelligence &
            Analytics Solution</h3>
@@ -158,7 +158,7 @@ const handleLearnMoreClick = () => {
          height={60}
          alt="rec-bot-icon"
          />
-         <h3 className="ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
+         <h3 className="ml-0 sm:ml-2 font-semibold text-[8px] sm:text-[12px] md:text-[14px] lg:text-[16px]
            text-left text-[16px] leading-4 cursor-pointer">Analytics As A Service </h3>
         </div>
         </div>
@@ -167,7 +167,7 @@ const handleLearnMoreClick = () => {
         </div>
         {/* center div */}
         <div className="flex flex-col w-[40%] sm:w-[44%] md:w-[48%] lg:w-[52%] items-center  h-[30rem]">
-          <h1 className="font-extrabold text-[12px] sm:text-[18px] md:text-[24] lg:text-[40px] mb-3 tracking-wider font-oxygen">WHAT WE OFFER</h1>
+          <h1 className="font-extrabold text-[19px] sm:text-[24px] md:text-[32px] lg:text-[38px] mb-3 tracking-wider font-oxygen">WHAT WE OFFER</h1>
           <div className="rounded-lg bg-[#D9D9D9] flex w-[100%] h-[24rem]">
           
           </div>

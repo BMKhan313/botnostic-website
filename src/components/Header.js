@@ -31,10 +31,9 @@ const currentParagraph = paragraphsArray[paragraphIndex];
      
       {/* Content */}
         <Headertop  />
-      <div className='w-[100%] flex flex-col mt-[0.5rem] text-left  font-oxygen'>
-        <h1 className='text-[#21B0B0] w-[120%] sm:w-[90%] md:w-[70%] 
-        text-[11px] xsm:text-[20px] md:text-[24px] font-semibold ' >Botnostic Solutions, the spearhead of 
-        augmenting Artificial intelligence for Business Solutions</h1>
+      <div className='w-[100%] flex flex-col mt-[9rem] md:mt-[0.5rem] ml-[-4rem] text-left  font-oxygen'>
+        <h1 className='text-[#21B0B0] w-[120%] sm:w-[90%] md:w-[45%] 
+        text-[11px] xsm:text-[20px] md:text-[22px] font-semibold ' >Spearheading the augmentation of artificial intelligence for business solutions</h1>
         <div className=' max-h-[380px] mt-2 w-[120%] sm:w-[80%] md:w-[40%] lg:w-[25%] text-[8px] 
         xsm:text-[14px] md:text-[17px] transition-all duration-3000 ease-in-out font-oxygen'>{currentParagraph}</div>
       </div>
